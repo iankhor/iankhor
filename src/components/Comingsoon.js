@@ -4,7 +4,7 @@ import TweenMax  from 'gsap'
 class Comingsoon extends Component {
   componentWillEnter (callback) {
     const el = this.container;
-    TweenMax.fromTo(el, 3, {y: 0, opacity: 0}, {y: -400, opacity: 1, onComplete: callback});
+    TweenMax.fromTo(el, 3, {y: 0, opacity: 0}, {y: -200, opacity: 1, onComplete: callback});
   }
 
   componentWillLeave (callback) {
