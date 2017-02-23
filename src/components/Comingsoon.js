@@ -13,7 +13,7 @@ class Comingsoon extends Component {
   }
 
   render () {
-    return <div className="comingsoon" ref={c => this.container = c}>...on my way...</div>
+    return <div className="comingsoon" ref={c => this.container = c}>... in transit ...</div>
   }
 }
 
