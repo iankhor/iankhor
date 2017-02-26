@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import '../css/style.css'
-import TransitionGroup from 'react-addons-transition-group'
-import Name from './Name'
-import Comingsoon from './Comingsoon'
 
 class Home extends Component {
 
