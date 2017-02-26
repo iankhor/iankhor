@@ -32,23 +32,23 @@ body {
 }
 .firstname {
   text-align: center;
-  font-size: 200px;
+  font-size: 120px;
 }
 .border {
   border: 10px solid #000;
 }
 .name {
-  padding-top: 40vh;
+  padding-top: 30vh;
 }
 .lastname {
   text-align: center;
-  font-size: 200px;
+  font-size: 120px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .in-transit {
   text-align: center;
-  font-size: 45px;
+  font-size: 25px;
   padding-top: 30px;
 }
 .home-body {
