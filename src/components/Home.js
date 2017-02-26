@@ -31,16 +31,16 @@ class Home extends Component {
       <div className="home-body">
         <div className="row name around-xs">
           <div className="col-xs-12 col-md-6">
-              <div className="box firstname dev-blue border">I<span className="dev-red">A</span>N</div>
+              <div className="box firstname border">I<span className="dev-red">A</span>N</div>
           </div>
           <div className="col-xs-12 col-md-6">
-              <div className="box lastname dev-gray">KHOR</div>
+              <div className="box lastname ">KHOR</div>
           </div>
         </div>
 
         <div className="row around-xs">
           <div className="col-xs-12">
-              <div className="box in-transit dev-pink">... in transit ...</div>
+              <div className="box in-transit">... <span className="dev-red">i</span>n tran<span className="dev-red">s</span>it ...</div>
           </div>
         </div>
       

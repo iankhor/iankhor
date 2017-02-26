@@ -35,8 +35,8 @@ body {
 .in-transit {
   text-align: center;
   font-size: 45px;
+  padding-top: 30px;
 }
 .home-body {
-  background-color: #ff0;
   height: 100vh;
 }
