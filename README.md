@@ -1,1 +1,1 @@
-Holding page for new personal website.
+Holding page for new personal website
