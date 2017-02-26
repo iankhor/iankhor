@@ -9,6 +9,7 @@
     "stylus": "^0.54.5"
   },
   "dependencies": {
+    "flexboxgrid": "^6.3.1",
     "gsap": "^1.19.1",
     "history": "^4.5.1",
     "install": "^0.8.7",

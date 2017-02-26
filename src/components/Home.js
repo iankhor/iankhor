@@ -28,16 +28,25 @@ class Home extends Component {
 
   render() {
     return (
+      <div className="home-body">
+        <div className="row name around-xs">
+          <div className="col-xs-12 col-md-6">
+              <div className="box firstname dev-blue border">I<span className="dev-red">A</span>N</div>
+          </div>
+          <div className="col-xs-12 col-md-6">
+              <div className="box lastname dev-gray">KHOR</div>
+          </div>
+        </div>
 
-      <div className="page">
-
-        <TransitionGroup>
-          { this.state.shouldShowBox && <Name /> }
-          { this.state.shouldShowBox && <Comingsoon /> }
-        </TransitionGroup>
-
-      </div>
+        <div className="row around-xs">
+          <div className="col-xs-12">
+              <div className="box in-transit dev-pink">... in transit ...</div>
+          </div>
+        </div>
       
+      </div>
+
+        
        
     )
   }

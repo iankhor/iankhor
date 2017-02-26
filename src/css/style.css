@@ -1,53 +1,42 @@
 html,
-body,
-#container {
-  height: 100%;
-  overflow: hidden;
+body {
   font-family: 'Share Tech Mono', monospace;
 }
-.page {
-  height: 100%;
+.dev-blue {
+  background-color: #00f;
 }
-.red-text {
+.dev-gray {
+  background-color: #808080;
+}
+.dev-pink {
+  background-color: #ffc0cb;
+}
+.dev-red {
   color: #f00;
 }
+.firstname {
+  text-align: center;
+  font-size: 150px;
+}
+.border {
+  border: 10px solid #000;
+}
 .name {
-  height: 90vh;
-  margin: 0 auto;
-  font-size: 140px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 40vh;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.comingsoon {
-  height: 10vh;
-  margin: 0 auto;
-  font-size: 25px;
+.lastname {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  font-size: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.toggle-btn {
-  position: absolute;
-  top: 20px;
-  right: 0;
-  left: 0;
-  margin: auto;
-  width: 80px;
-  padding: 10px;
-  font-size: 18px;
+.in-transit {
+  text-align: center;
+  font-size: 45px;
+}
+.home-body {
+  background-color: #ff0;
+  height: 100vh;
 }
