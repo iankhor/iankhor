@@ -1,3 +1,19 @@
+.name-appear {
+  opacity: 0.01;
+}
+.name-appear.name-appear-active {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+}
+.example-appear {
+  opacity: 0.01;
+}
+.example-appear.example-appear-active {
+  opacity: 1;
+  -webkit-transition: opacity 2s ease-in;
+  transition: opacity 2s ease-in;
+}
 html,
 body {
   font-family: 'Share Tech Mono', monospace;
@@ -16,19 +32,17 @@ body {
 }
 .firstname {
   text-align: center;
-  font-size: 150px;
+  font-size: 200px;
 }
 .border {
   border: 10px solid #000;
 }
 .name {
   padding-top: 40vh;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .lastname {
   text-align: center;
-  font-size: 150px;
+  font-size: 200px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
